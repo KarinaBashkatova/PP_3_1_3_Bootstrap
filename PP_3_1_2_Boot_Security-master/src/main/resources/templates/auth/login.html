@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Sign in</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-2">
+                <div class="page-header">
+
+                    <br>
+                    <br>
+                    <!-- Header -->
+                    <h3>
+                        <b>Please sign in</b>
+                    </h3>
+
+                </div>
+
+                <!-- Login form -->
+                <form name="f" method="post" action="/process_login">
+                    <div class="form-group">
+                        <label for="inputUsername" class="sr-only">Username</label>
+                        <input type="text" name="username" id="inputUsername" class="form-control" placeholder="Username" required="" autofocus="">
+                        <label for="inputPassword" class="sr-only">Password</label>
+                        <input type="text" name="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                    </div>
+
+                    <button   type="submit" class="btn btn-md btn-block btn-primary">
+                        Sign in
+                    </button>
+                </form>
+
+            </div>
+
+        <div class="col-md-5">
+        </div>
+
+    </div>
+</div>

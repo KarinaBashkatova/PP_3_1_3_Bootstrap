@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{6cec6aa88093b0314144, 77fabf6df429161e4ca3, analytics, bootstrap, context, host, jquery-3.3.1.slim, popper.js, tag}" />
+    <file url="file://$PROJECT_DIR$/PP_3_1_2_Boot_Security-master" libraries="{6cec6aa88093b0314144, 77fabf6df429161e4ca3, analytics, bootstrap, context, f9471ce89365d8f2ad8b, host, jquery-3.3.1.slim, popper.js, tag}" />
+  </component>
+</project>
